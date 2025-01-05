@@ -3,7 +3,7 @@ import numpy as np
 import uvicorn
 import io
 import soundfile as sf
-from .filter_design import sinc_filter_bandpass
+from filter_design import sinc_filter_bandpass
 from fastapi.responses import StreamingResponse, HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 import base64
